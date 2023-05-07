@@ -1,6 +1,10 @@
 # Итоговая по итогам 3 модуля
 
 ## Ссылка на готовую работу:
+https://snitchyck.github.io/attestation/
+
+## Ссылка на прототип сайта:
+https://wireframe.cc/CNPXtf
 
 ## Требования:
 
