@@ -1,16 +1,22 @@
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
     margin: 20px auto;
 }
 
+button{
+    background-color: orchid;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .card {
     width: 25%;
     max-width: 300px;
-    border: 1px solid black;
+    border: 1px solid purple;
     padding: 20px;
+    align-items: center;
 }
 
 .card__image {
@@ -36,6 +42,7 @@ header {
     margin: auto;
     border-bottom: 1px solid purple;
     padding: 10px 20px;
+    font-size:small;
 }
 
 @media screen and (max-width: 768px) {
