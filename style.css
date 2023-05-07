@@ -1,3 +1,10 @@
+main {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -6,24 +13,37 @@
     margin: 20px auto;
 }
 
-button{
-    background-color: orchid;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+button {
+    background-color: #05899b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .card {
     width: 25%;
     max-width: 300px;
-    border: 1px solid purple;
+    border: 2px solid #352d35;
+    border-radius: 8px;
     padding: 20px;
+    justify-content: center;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #05899b;
+    margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .card__image {
     height: 120px;
     width: 100%;
-    max-width: 180px;
-    background-color: #a2a2a2;
+    max-width: 160px;
+    background-color: #352d35;
     margin: auto;
 }
 
@@ -38,11 +58,12 @@ header {
     justify-content: space-between;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #05899b;
     max-width: 1200px;
     margin: auto;
-    border-bottom: 1px solid purple;
+    border-bottom: 2px solid #352d35;
     padding: 10px 20px;
-    font-size:small;
+    font-size: small;
 }
 
 @media screen and (max-width: 768px) {
@@ -63,5 +84,13 @@ header {
     header {
         flex-direction: column;
         font-size: xx-small;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    main {
+        align-items: center;
+        justify-content: center;
+        padding-left: 8%;
     }
 }
